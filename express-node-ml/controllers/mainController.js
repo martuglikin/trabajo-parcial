@@ -1,6 +1,6 @@
 const mainController = {
     index: function(req, res) {
-      res.render('main');
+      res.render('index');
     },
     resultados: function(req, res) {
       res.render('searchResults');
