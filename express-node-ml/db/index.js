@@ -78,12 +78,6 @@ const datosProductos = {
                     comentario: '',
                     imagen: '',
                 },
-
-                {
-                    nombre: '',
-                    comentario: '',
-                    imagen: '',
-                },
             ]
         },
 
