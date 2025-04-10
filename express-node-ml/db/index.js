@@ -1,7 +1,7 @@
 const datosProductos = {
     usuario: {
         email: '',
-        usuario: '',
+        usuario: 'Martina Glikin',
         pass: '',
         fecha: '',
         dni: '',
@@ -12,25 +12,25 @@ const datosProductos = {
         {
             id: '1',
             imagen: 'img-tv-samsung-smart.jpg',
-            nombre: 'Macbook',
+            nombre: 'Macbook 1',
             descripcion: 'Laptop modelo macbook pro del año 2019',
             comentarios: [
                 {
-                    nombre: '',
-                    comentario: '',
-                    imagen: '',
+                    nombre: 'user1',
+                    comentario: 'muy bueno',
+                    imagen: 'default-image.png',
                 },
 
                 {
-                    nombre: '',
-                    comentario: '',
-                    imagen: '',
+                    nombre: 'user2',
+                    comentario: 'buenisimo',
+                    imagen: 'default-image.png',
                 },
 
                 {
-                    nombre: '',
-                    comentario: '',
-                    imagen: '',
+                    nombre: 'user3',
+                    comentario: 'malo',
+                    imagen: 'default-image.png',
                 },
             ]
         },
