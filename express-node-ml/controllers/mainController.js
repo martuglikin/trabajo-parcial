@@ -5,7 +5,7 @@ const mainController = {
       res.render('index', {productos: datosProductos.productos});
     },
     resultados: function(req, res) {
-      res.render('searchResults');
+      res.render('search-results');
     }
   }
 
