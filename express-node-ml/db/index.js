@@ -10,10 +10,10 @@ const datosProductos = {
 
     productos: [
         {
-            id: '',
-            imagen: '',
-            nombre: '',
-            descripcion: '',
+            id: '1',
+            imagen: 'img-tv-samsung-smart.jpg',
+            nombre: 'Macbook',
+            descripcion: 'Laptop modelo macbook pro del año 2019',
             comentarios: [
                 {
                     nombre: '',
@@ -36,10 +36,10 @@ const datosProductos = {
         },
 
         {
-            id: '',
-            imagen: '',
-            nombre: '',
-            descripcion: '',
+            id: '2',
+            imagen: 'img-tv-samsung-smart.jpg',
+            nombre: 'Macbook',
+            descripcion: 'Laptop modelo macbook pro del año 2019',
             comentarios: [
                 {
                     nombre: '',
@@ -62,10 +62,10 @@ const datosProductos = {
         },
 
         {
-            id: '',
-            imagen: '',
-            nombre: '',
-            descripcion: '',
+            id: '3',
+            imagen: 'img-tv-samsung-smart.jpg',
+            nombre: 'Macbook',
+            descripcion: 'Laptop modelo macbook pro del año 2019',
             comentarios: [
                 {
                     nombre: '',
@@ -82,10 +82,10 @@ const datosProductos = {
         },
 
         {
-            id: '',
-            imagen: '',
-            nombre: '',
-            descripcion: '',
+            id: '4',
+            imagen: 'img-tv-samsung-smart.jpg',
+            nombre: 'Macbook',
+            descripcion: 'Laptop modelo macbook pro del año 2019',
             comentarios: [
                 {
                     nombre: '',
