@@ -8,6 +8,11 @@ const mainController = {
       res.render('search-results', {
         productos: datosProductos.productos
       });
+    },
+    profile: function(req, res){
+      res.render('profile',{
+        usuario: datosProductos.usuario
+      });
     }
   }
 
