@@ -591,3 +591,82 @@ textarea.form-input {
   background-color: #5f82e6;
 }
 
+/* FORM LOGIN */
+
+.form-login {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: 'Arial', sans-serif;
+}
+
+.form-login {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.form-login input:hover {
+  border-color: #7a9cff;
+}
+
+.form-login button {
+  padding: 12px;
+  background-color: #7a9cff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.form-login button:hover {
+  background-color: #5f82e6;
+}
+
+/*FORM REGISTRO*/
+.form-registro{
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: 'Arial', sans-serif;
+}
+
+.form-registro {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.form-registro input:hover {
+  border-color: #7a9cff;
+}
+
+.form-registro button {
+  padding: 12px;
+  background-color: #7a9cff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.form-registro button:hover {
+  background-color: #5f82e6;
+}
+
