@@ -13,7 +13,7 @@ const datosProductos = {
             id: '1',
             imagen: '440.jpg',
             nombre: 'BMW 440',
-            descripcion: 'Auto deportivo 440, 2024.',
+            descripcion: 'Deportivo moderno con diseño provocador y tecnología de punta. 510 HP, tracción trasera o total, y todo el ADN M. Año 2024.',
             comentarios: [
                 {
                     nombre: 'user1',
@@ -39,7 +39,7 @@ const datosProductos = {
             id: '2',
             imagen: '118.jpg',
             nombre: 'BMW 118',
-            descripcion: 'Auto urbano 118, 2023.',
+            descripcion: 'Compacto y versátil. Ideal para ciudad y escapadas. Motores eficientes, interior tecnológico y estilo juvenil. Año 2023.',
             comentarios: [
                 {
                     nombre: 'mariana23',
@@ -61,9 +61,9 @@ const datosProductos = {
 
         {
             id: '3',
-            imagen: 'E28 clasico.jpg',
+            imagen: 'E28-clasico.jpg',
             nombre: 'E 28',
-            descripcion: 'Auto clasico, 1998.',
+            descripcion: 'Un sedán deportivo antes de que eso fuera tendencia. Elegante por fuera, pero con un motor de 6 cilindros en línea que entregaba una experiencia de conducción pura. Año 1998.',
             comentarios: [
                 {
                     nombre: 'sofi_gamer',
@@ -85,9 +85,9 @@ const datosProductos = {
 
         {
             id: '4',
-            imagen: 'electrico 1.jpg',
+            imagen: 'electrico1.jpg',
             nombre: 'i4 eDrive40',
-            descripcion: 'Auto eléctrico i4 eDrive40, 2025.',
+            descripcion: ' Sedán eléctrico de 340 HP. Combina elegancia con autonomía y conducción dinámica. Silencioso, pero potente. Año 2025.',
             comentarios: [
                 {
                     nombre: 'auto_fan23',
@@ -111,7 +111,7 @@ const datosProductos = {
             id: '5',
             imagen: 'Z4.jpg',
             nombre: 'BMW Z4',
-            descripcion: 'Auto deportivo, 2023.',
+            descripcion: 'Un biplaza descapotable con motor atmosférico de 6 cilindros. Combinación perfecta de manejo deportivo y libertad al volante. Año 2023.',
             comentarios: [
                 {
                     nombre: 'mecanico_juan',
@@ -135,7 +135,7 @@ const datosProductos = {
             id: '6',
             imagen: 'x2.jpg',
             nombre: 'X2',
-            descripcion: 'Auto urbano, 2024.',
+            descripcion: 'SUV compacto, ideal para la ciudad y viajes. Diseño moderno, tecnología avanzada y versiones híbridas y eléctricas. Año 2024.',
             comentarios: [
                 {
                     nombre: 'carlos_racing',
@@ -157,9 +157,9 @@ const datosProductos = {
 
         {
             id: '7',
-            imagen: 'M1 1978.jpg',
+            imagen: 'M1-1978.jpg',
             nombre: 'M1',
-            descripcion: 'Auto clásico, 1978',
+            descripcion: 'El primer superdeportivo de BMW. Motor central, diseño de Giugiaro y alma de competición. Es un ícono de colección y una rareza moderna. Año 1978',
             comentarios: [
                 {
                     nombre: 'juanito_motor',
@@ -181,9 +181,9 @@ const datosProductos = {
 
         {
             id: '8',
-            imagen: 'electrico 2.jpg',
+            imagen: 'electrico2.jpg',
             nombre: 'iX3',
-            descripcion: 'Auto eléctrico, 2022.',
+            descripcion: ' Versión eléctrica del X3. SUV elegante y funcional, sin emisiones, pero con el manejo típico de BMW. Año 2023.',
             comentarios: [
                 {
                     nombre: 'ricardo_rally',
@@ -205,9 +205,9 @@ const datosProductos = {
 
         {
             id: '9',
-            imagen: 'M3 nuevo.webp',
+            imagen: 'M3-nuevo.webp',
             nombre: 'M3',
-            descripcion: 'Auto deportivo, 2025.',
+            descripcion: 'El M3 original. Ligero, ágil y nacido para las pistas. Su éxito en el automovilismo lo convirtió en leyenda y referencia hasta hoy. Año 2021.',
             comentarios: [
                 {
                     nombre: 'jose_roadtrip',
@@ -229,9 +229,9 @@ const datosProductos = {
 
         {
             id: '10',
-            imagen: 'serie 3.jpg',
-            nombre: 'Serie 3',
-            descripcion: 'Auto urbano, 2020.',
+            imagen: 'serie2.jpg',
+            nombre: 'Serie 2',
+            descripcion: 'Sedán mediano por excelencia. Tecnología, elegancia y precisión en la conducción. Un clásico que evoluciona con cada generación. Año 2020.',
             comentarios: [
                 {
                     nombre: 'luis_carrera',
@@ -249,7 +249,240 @@ const datosProductos = {
                     imagen: 'default-image.png',
                 },
             ]
-        }
+        },
+        {
+            id: '11',
+            imagen: '507.jpg',
+            nombre: '507',
+            descripcion: 'Un roadster de lujo con diseño atemporal y motor V8. Ícono de los años 50, con solo 252 unidades fabricadas, amado por celebridades como Elvis Presley. Año 2005.',
+            comentarios: [
+                {
+                    nombre: 'jose_roadtrip',
+                    comentario: 'Gran coche para viajes largos, súper estable y cómodo.',
+                    imagen: 'default-image.png',
+                },
+                {
+                    nombre: 'sofia_motor',
+                    comentario: 'Rendimiento increíble en la pista, muy ágil y rápido.',
+                    imagen: 'default-image.png',
+                },
+                {
+                    nombre: 'martin_mec',
+                    comentario: 'Excelente tecnología de seguridad, pero algo ruidoso en carretera.',
+                    imagen: 'default-image.png',
+                },
+            ]
+        },
+        {
+            id: '12',
+            imagen: 'electrico3.webp',
+            nombre: 'i7',
+            descripcion: 'Lujo eléctrico sin precedentes. El sedán más tecnológico y lujoso de BMW, con detalles como pantalla de cine en los asientos traseros.Año 2025.',
+            comentarios: [
+                {
+                    nombre: 'jose_roadtrip',
+                    comentario: 'Gran coche para viajes largos, súper estable y cómodo.',
+                    imagen: 'default-image.png',
+                },
+                {
+                    nombre: 'sofia_motor',
+                    comentario: 'Rendimiento increíble en la pista, muy ágil y rápido.',
+                    imagen: 'default-image.png',
+                },
+                {
+                    nombre: 'martin_mec',
+                    comentario: 'Excelente tecnología de seguridad, pero algo ruidoso en carretera.',
+                    imagen: 'default-image.png',
+                },
+            ]
+        },
+        {
+            id: '13',
+            imagen: 'M5-nuevo.jpg',
+            nombre: 'M5',
+            descripcion: 'Sedán con motor V10 derivado de la Fórmula 1. Una bestia disfrazada de auto ejecutivo, con más de 500 HP y sonido inconfundible. Año 2025.',
+            comentarios: [
+                {
+                    nombre: 'jose_roadtrip',
+                    comentario: 'Gran coche para viajes largos, súper estable y cómodo.',
+                    imagen: 'default-image.png',
+                },
+                {
+                    nombre: 'sofia_motor',
+                    comentario: 'Rendimiento increíble en la pista, muy ágil y rápido.',
+                    imagen: 'default-image.png',
+                },
+                {
+                    nombre: 'martin_mec',
+                    comentario: 'Excelente tecnología de seguridad, pero algo ruidoso en carretera.',
+                    imagen: 'default-image.png',
+                },
+            ]
+        },
+        {
+            id: '14',
+            imagen: '430-coupe.jpg',
+            nombre: '430 coupe',
+            descripcion: ' Diseño coupé con espíritu deportivo y practicidad. Perfecto para quienes buscan dinamismo sin renunciar al confort.Año 2023.',
+            comentarios: [
+                {
+                    nombre: 'jose_roadtrip',
+                    comentario: 'Gran coche para viajes largos, súper estable y cómodo.',
+                    imagen: 'default-image.png',
+                },
+                {
+                    nombre: 'sofia_motor',
+                    comentario: 'Rendimiento increíble en la pista, muy ágil y rápido.',
+                    imagen: 'default-image.png',
+                },
+                {
+                    nombre: 'martin_mec',
+                    comentario: 'Excelente tecnología de seguridad, pero algo ruidoso en carretera.',
+                    imagen: 'default-image.png',
+                },
+            ]
+        },
+        {
+            id: '15',
+            imagen: '2002.jpg',
+            nombre: '2002 Turbo',
+            descripcion: 'El primer BMW turboalimentado. Compacto, veloz y con una estética agresiva, fue un pionero del diseño deportivo en autos de calle. Año 1973.',
+            comentarios: [
+                {
+                    nombre: 'jose_roadtrip',
+                    comentario: 'Gran coche para viajes largos, súper estable y cómodo.',
+                    imagen: 'default-image.png',
+                },
+                {
+                    nombre: 'sofia_motor',
+                    comentario: 'Rendimiento increíble en la pista, muy ágil y rápido.',
+                    imagen: 'default-image.png',
+                },
+                {
+                    nombre: 'martin_mec',
+                    comentario: 'Excelente tecnología de seguridad, pero algo ruidoso en carretera.',
+                    imagen: 'default-image.png',
+                },
+            ]
+        },
+        {
+            id: '16',
+            imagen: 'electrico4.webp',
+            nombre: 'i3',
+            descripcion: 'El pionero eléctrico urbano. Diseño audaz, interior sustentable y una propuesta diferente para la movilidad moderna. Año 2025.',
+            comentarios: [
+                {
+                    nombre: 'jose_roadtrip',
+                    comentario: 'Gran coche para viajes largos, súper estable y cómodo.',
+                    imagen: 'default-image.png',
+                },
+                {
+                    nombre: 'sofia_motor',
+                    comentario: 'Rendimiento increíble en la pista, muy ágil y rápido.',
+                    imagen: 'default-image.png',
+                },
+                {
+                    nombre: 'martin_mec',
+                    comentario: 'Excelente tecnología de seguridad, pero algo ruidoso en carretera.',
+                    imagen: 'default-image.png',
+                },
+            ]
+        },
+        {
+            id: '17',
+            imagen: 'M2.jpg',
+            nombre: 'M2 CS',
+            descripcion: 'Una edición limitada y radical del M2. Más potencia, menor peso y mejoras en la suspensión para un manejo extremo en pista. Año 2021.',
+            comentarios: [
+                {
+                    nombre: 'jose_roadtrip',
+                    comentario: 'Gran coche para viajes largos, súper estable y cómodo.',
+                    imagen: 'default-image.png',
+                },
+                {
+                    nombre: 'sofia_motor',
+                    comentario: 'Rendimiento increíble en la pista, muy ágil y rápido.',
+                    imagen: 'default-image.png',
+                },
+                {
+                    nombre: 'martin_mec',
+                    comentario: 'Excelente tecnología de seguridad, pero algo ruidoso en carretera.',
+                    imagen: 'default-image.png',
+                },
+            ]
+        },
+        {
+            id: '18',
+            imagen: 'Serie5.jpg',
+            nombre: 'Serie 5',
+            descripcion: 'Sedán ejecutivo con un balance perfecto entre lujo y rendimiento. Ahora también con versión eléctrica (i5). Año 2021.',
+            comentarios: [
+                {
+                    nombre: 'jose_roadtrip',
+                    comentario: 'Gran coche para viajes largos, súper estable y cómodo.',
+                    imagen: 'default-image.png',
+                },
+                {
+                    nombre: 'sofia_motor',
+                    comentario: 'Rendimiento increíble en la pista, muy ágil y rápido.',
+                    imagen: 'default-image.png',
+                },
+                {
+                    nombre: 'martin_mec',
+                    comentario: 'Excelente tecnología de seguridad, pero algo ruidoso en carretera.',
+                    imagen: 'default-image.png',
+                },
+            ]
+        },
+        {
+            id: '19',
+            imagen: '3.0-CSL.jpg',
+            nombre: '3.0 CSL',
+            descripcion: 'Conocido como el “Batimóvil”, este coupé fue una leyenda del automovilismo europeo y precursor de la línea M. Ligero, potente y con aerodinámica avanzada para su época. Año 1975.',
+            comentarios: [
+                {
+                    nombre: 'jose_roadtrip',
+                    comentario: 'Gran coche para viajes largos, súper estable y cómodo.',
+                    imagen: 'default-image.png',
+                },
+                {
+                    nombre: 'sofia_motor',
+                    comentario: 'Rendimiento increíble en la pista, muy ágil y rápido.',
+                    imagen: 'default-image.png',
+                },
+                {
+                    nombre: 'martin_mec',
+                    comentario: 'Excelente tecnología de seguridad, pero algo ruidoso en carretera.',
+                    imagen: 'default-image.png',
+                },
+                
+            ]
+        },
+        {
+            id: '20',
+            imagen: 'electrico5.jpg',
+            nombre: 'i X6',
+            descripcion: 'SUV eléctrico insignia. Diseño futurista, 523 HP, pantalla curva y más de 600 km de autonomía. Año 2025.',
+            comentarios: [
+                {
+                    nombre: 'jose_roadtrip',
+                    comentario: 'Gran coche para viajes largos, súper estable y cómodo.',
+                    imagen: 'default-image.png',
+                },
+                {
+                    nombre: 'sofia_motor',
+                    comentario: 'Rendimiento increíble en la pista, muy ágil y rápido.',
+                    imagen: 'default-image.png',
+                },
+                {
+                    nombre: 'martin_mec',
+                    comentario: 'Excelente tecnología de seguridad, pero algo ruidoso en carretera.',
+                    imagen: 'default-image.png',
+                },
+                
+            ]
+        },
+        
         
     ]
 }
