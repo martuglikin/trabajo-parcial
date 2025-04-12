@@ -1,11 +1,11 @@
 const datosProductos = {
     usuario: {
-        email: '',
-        usuario: 'Martina Glikin',
-        pass: '',
-        fecha: '',
-        dni: '',
-        foto: ''
+        email: 'fcolapinto@gmail.com',
+        usuario: 'Franco Colapinto',
+        pass: '111',
+        fecha: '27/05/2003',
+        dni: '43123456',
+        foto: 'franco-colapinto.png'
     },
 
     productos: [
