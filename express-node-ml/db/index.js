@@ -11,9 +11,9 @@ const datosProductos = {
     productos: [
         {
             id: '1',
-            imagen: 'img-tv-samsung-smart.jpg',
-            nombre: 'Macbook 1',
-            descripcion: 'Laptop modelo macbook pro del año 2019',
+            imagen: '440.jpg',
+            nombre: 'BMW 440',
+            descripcion: 'Auto deportivo 440, 2024.',
             comentarios: [
                 {
                     nombre: 'user1',
@@ -37,9 +37,9 @@ const datosProductos = {
 
         {
             id: '2',
-            imagen: 'img-tv-samsung-smart.jpg',
-            nombre: 'Macbook',
-            descripcion: 'Laptop modelo macbook pro del año 2019',
+            imagen: '118.jpg',
+            nombre: 'BMW 118',
+            descripcion: 'Auto urbano 118, 2023.',
             comentarios: [
                 {
                     nombre: 'mariana23',
@@ -61,9 +61,9 @@ const datosProductos = {
 
         {
             id: '3',
-            imagen: 'img-tv-samsung-smart.jpg',
-            nombre: 'Macbook',
-            descripcion: 'Laptop modelo macbook pro del año 2019',
+            imagen: 'E28 clasico.jpg',
+            nombre: 'E 28',
+            descripcion: 'Auto clasico, 1998.',
             comentarios: [
                 {
                     nombre: 'sofi_gamer',
@@ -85,9 +85,9 @@ const datosProductos = {
 
         {
             id: '4',
-            imagen: 'img-tv-samsung-smart.jpg',
-            nombre: 'Macbook',
-            descripcion: 'Laptop modelo macbook pro del año 2019',
+            imagen: 'electrico 1.jpg',
+            nombre: 'i4 eDrive40',
+            descripcion: 'Auto eléctrico i4 eDrive40, 2025.',
             comentarios: [
                 {
                     nombre: 'auto_fan23',
@@ -108,10 +108,10 @@ const datosProductos = {
         },
 
         {
-            id: '',
-            imagen: '',
-            nombre: '',
-            descripcion: '',
+            id: '5',
+            imagen: 'Z4.jpg',
+            nombre: 'BMW Z4',
+            descripcion: 'Auto deportivo, 2023.',
             comentarios: [
                 {
                     nombre: 'mecanico_juan',
@@ -132,10 +132,10 @@ const datosProductos = {
         },
 
         {
-            id: '',
-            imagen: '',
-            nombre: '',
-            descripcion: '',
+            id: '6',
+            imagen: 'x2.jpg',
+            nombre: 'X2',
+            descripcion: 'Auto urbano, 2024.',
             comentarios: [
                 {
                     nombre: 'carlos_racing',
@@ -156,10 +156,10 @@ const datosProductos = {
         },
 
         {
-            id: '',
-            imagen: '',
-            nombre: '',
-            descripcion: '',
+            id: '7',
+            imagen: 'M1 1978.jpg',
+            nombre: 'M1',
+            descripcion: 'Auto clásico, 1978',
             comentarios: [
                 {
                     nombre: 'juanito_motor',
@@ -180,10 +180,10 @@ const datosProductos = {
         },
 
         {
-            id: '',
-            imagen: '',
-            nombre: '',
-            descripcion: '',
+            id: '8',
+            imagen: 'electrico 2.jpg',
+            nombre: 'iX3',
+            descripcion: 'Auto eléctrico, 2022.',
             comentarios: [
                 {
                     nombre: 'ricardo_rally',
@@ -204,10 +204,10 @@ const datosProductos = {
         },
 
         {
-            id: '',
-            imagen: '',
-            nombre: '',
-            descripcion: '',
+            id: '9',
+            imagen: 'M3 nuevo.webp',
+            nombre: 'M3',
+            descripcion: 'Auto deportivo, 2025.',
             comentarios: [
                 {
                     nombre: 'jose_roadtrip',
@@ -228,10 +228,10 @@ const datosProductos = {
         },
 
         {
-            id: '',
-            imagen: '',
-            nombre: '',
-            descripcion: '',
+            id: '10',
+            imagen: 'serie 3.jpg',
+            nombre: 'Serie 3',
+            descripcion: 'Auto urbano, 2020.',
             comentarios: [
                 {
                     nombre: 'luis_carrera',
