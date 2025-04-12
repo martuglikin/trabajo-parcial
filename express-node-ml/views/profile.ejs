@@ -5,25 +5,27 @@
 
 <body>
 	<!-- Header -->
-	<%- include('./partials/headerLogueado', { nombreUsuario: usuario.nombre }) %>
+	<%- include('./partials/headerLogueado', { nombreUsuario: nombreUsuario }) %>
 	<!-- /Header -->
 	 <!-- /datos usuario --> 
-	<section class="info-usuario container products-wrapper">
+	 <section class="info-usuario container products-wrapper">
 		<div class="row">
 			<div class="img-container offset-3 col-2">
-				<img src="https://via.placeholder.com/150" alt="foto de perfil" class="foto-perfil">
+				<img src="/trabajo-parcial/express-node-ml/public/images/<%= usuario.foto %>" alt="foto de perfil" class="foto-perfil">
 			</div>
 			<div class="data-container col-6">
-				<div class="d-flex align-items-center ">
-					<h1 class="main-title">Nombre del usuario 
-						<a href="profile-edit.html">
+				<div class="d-flex align-items-center">
+					<h1 class="main-title">
+						<%= usuario.usuario %>
+						<a href="/users/edit">
 							<i class="fas fa-cog"></i>
 						</a>
 					</h1>
-					<a class="btn mt-3 ml-4" href="">SEGUIR</a>
+					<a class="btn mt-3 ml-4" href="#">SEGUIR</a>
 				</div>
 				<div>
-					<ul class="">
+					<p><%= usuario.email %></p>
+					<ul>
 						<li>8 productos</li>
 						<li>200 seguidores</li>
 						<li>300 comentarios</li>
@@ -32,20 +34,6 @@
 			</div>
 		</div>
 	</section>
-	<!-- /Datos del usuario -->
-	 <main class="perfil">
-		<section class="perfil-usuario">
-			<div class="perfil-foto">
-				<img src="/trabajo-parcial/express-node-ml/public/images/<%=usuario.foto%>">
-			</div>
-			<div class="perfil-info">
-				<h2><%= usuario.usuario %></h2>
-				<p><%= usuario.email %></p>
-				<p>8 productos - 200 seguidores - 300 comentarios</p>
-				<button class="btn-seguir">SEGUIR</button>
-			</div>
-		</section>
-	 </main>
 
 	<!-- Mis productos -->
 	<div class="container products-wrapper">
