@@ -6,7 +6,7 @@
 :root {
   --yellow: #EAC926;
   --dark-blue: #03264C;
-  --light-blue: #1259c3;
+  --light-blue: #9a9c9f;
   --gray: #666666;
   --light-gray: #ebebeb;
   --green: #39b54a;
@@ -68,7 +68,11 @@ hr {
 /*====== Main Header ======*/
 .main-header {
   padding: 15px 0;
-  background-color: var(--yellow);
+  background-color: #16588E;
+  color: #FBFAF5;
+  font-family: "Inter", sans-serif;;
+  font-optical-sizing: auto;
+  font-weight: bold;
 }
 
 .main-header_home-link,
@@ -199,9 +203,8 @@ hr {
 }
 
 .product-box_data h2 {
-  font-size: 2.4em;
-  font-weight: 300;
-  margin: 0;
+  font-family: "Lexend", sans-serif;
+  font-weight: bold;
 }
 
 .product-box_data span {
@@ -553,7 +556,7 @@ textarea.form-input {
 
 /* Formulario Product-Add */
 
-.form-product-add {
+.forms-style {
   max-width: 400px;
   margin: 40px auto;
   padding: 30px;
@@ -566,18 +569,18 @@ textarea.form-input {
   font-family: 'Arial', sans-serif;
 }
 
-.form-product-add input {
+.forms-style input {
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 8px;
   font-size: 14px;
 }
 
-.form-product-add input:hover {
+.forms-style input:hover {
   border-color: #7a9cff;
 }
 
-.form-product-add button {
+.forms-style button {
   padding: 12px;
   background-color: #7a9cff;
   color: white;
@@ -587,86 +590,19 @@ textarea.form-input {
   font-size: 15px;
 }
 
-.form-product-add button:hover {
+.forms-style button:hover {
   background-color: #5f82e6;
 }
 
-/* FORM LOGIN */
-
-.form-login {
-  max-width: 400px;
-  margin: 40px auto;
-  padding: 30px;
-  background-color: #f9f9f9;
-  border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  font-family: 'Arial', sans-serif;
-}
-
-.form-login {
+.forms-style label {
   padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
   font-size: 14px;
 }
 
-.form-login input:hover {
-  border-color: #7a9cff;
+.editar{
+  color: #16588E;
 }
 
-.form-login button {
-  padding: 12px;
-  background-color: #7a9cff;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  font-weight: bold;
-  font-size: 15px;
+.editar:hover{
+  color: #8d8f92;
 }
-
-.form-login button:hover {
-  background-color: #5f82e6;
-}
-
-/*FORM REGISTRO*/
-.form-registro{
-  max-width: 400px;
-  margin: 40px auto;
-  padding: 30px;
-  background-color: #f9f9f9;
-  border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  font-family: 'Arial', sans-serif;
-}
-
-.form-registro {
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  font-size: 14px;
-}
-
-.form-registro input:hover {
-  border-color: #7a9cff;
-}
-
-.form-registro button {
-  padding: 12px;
-  background-color: #7a9cff;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  font-weight: bold;
-  font-size: 15px;
-}
-
-.form-registro button:hover {
-  background-color: #5f82e6;
-}
-
