@@ -686,3 +686,7 @@ textarea.form-input {
   max-height: 100%;
   width: auto;
 }
+
+.contenedor-productos{
+  justify-content: center;
+}
