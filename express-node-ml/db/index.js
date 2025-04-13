@@ -17,20 +17,20 @@ const datosProductos = {
             comentarios: [
                 {
                     nombre: 'user1',
-                    comentario: 'muy bueno',
-                    imagen: 'default-image.png',
+                    comentario: 'muy buenoooo',
+                    imagen: 'imagen1.jpg',
                 },
 
                 {
                     nombre: 'user2',
                     comentario: 'buenisimo',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen2.png',
                 },
 
                 {
                     nombre: 'user3',
                     comentario: 'malo',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen3.jpg',
                 },
             ]
         },
@@ -44,17 +44,17 @@ const datosProductos = {
                 {
                     nombre: 'mariana23',
                     comentario: 'Excelente servicio, súper recomendable.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen4.png',
                 },
                 {
                     nombre: 'juan_tech',
                     comentario: 'El producto llegó rápido y en buen estado.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen5.jpg',
                 },
                 {
                     nombre: 'lucasdev',
                     comentario: 'No era lo que esperaba, pero igual cumplió.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen6.jpg',
                 },
             ]
         },
@@ -68,17 +68,17 @@ const datosProductos = {
                 {
                     nombre: 'sofi_gamer',
                     comentario: 'Increíble calidad, superó mis expectativas.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen7.png',
                 },
                 {
                     nombre: 'maxi_art',
                     comentario: 'Muy buen diseño, volvería a comprar.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen8.png',
                 },
                 {
                     nombre: 'ana.codes',
                     comentario: 'El envío tardó un poco, pero valió la pena.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen9.jpg',
                 },
             ]
         },
@@ -92,12 +92,12 @@ const datosProductos = {
                 {
                     nombre: 'speedy_lucas',
                     comentario: 'Ideal para los que aman la velocidad. 10/10.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen10.png',
                 },
                 {
                     nombre: 'claudia_ruta',
                     comentario: 'Cómodo, seguro y elegante. Me encantó.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen11.jpg',
                 },
             ]
         },
@@ -111,17 +111,17 @@ const datosProductos = {
                 {
                     nombre: 'mecanico_juan',
                     comentario: 'Excelente suspensión y muy buen consumo.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen12.jpg',
                 },
                 {
                     nombre: 'rocioviajera',
                     comentario: 'Lo usamos para un viaje largo y respondió perfecto.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen13.png',
                 },
                 {
                     nombre: 'ale_turbo',
                     comentario: 'Muy buena relación precio-calidad.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen14.jpg',
                 },
             ]
         },
@@ -135,17 +135,17 @@ const datosProductos = {
                 {
                     nombre: 'carlos_racing',
                     comentario: '¡El coche es una bestia! Increíble aceleración.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen15.png',
                 },
                 {
                     nombre: 'luisa_drive',
                     comentario: 'Súper cómodo para viajes largos, lo recomiendo.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen16.jpg',
                 },
                 {
                     nombre: 'max_rider',
                     comentario: 'Me encantó el diseño, pero el consumo podría mejorar.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen17.jpg',
                 },
             ]
         },
@@ -159,17 +159,17 @@ const datosProductos = {
                 {
                     nombre: 'juanito_motor',
                     comentario: 'Muy buen rendimiento, ideal para ciudad y carretera.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen18.jpg',
                 },
                 {
                     nombre: 'maria_turismo',
                     comentario: 'Excelente para viajes largos, súper cómodo y seguro.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen19.jpg',
                 },
                 {
                     nombre: 'fer_autoentusiasta',
                     comentario: 'La conducción es suave, pero el consumo de combustible es algo elevado.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen20.png',
                 },
             ]
         },
@@ -183,17 +183,17 @@ const datosProductos = {
                 {
                     nombre: 'ricardo_rally',
                     comentario: 'Ideal para los amantes de la velocidad, el mejor de su categoría.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen1.jpg',
                 },
                 {
                     nombre: 'pablo_drive',
                     comentario: 'Excelente calidad de materiales y confort en el interior.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen2.png',
                 },
                 {
                     nombre: 'carla_circuito',
                     comentario: 'Buena performance, aunque podría mejorar la tecnología a bordo.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen3.jpg',
                 },
             ]
         },
@@ -207,17 +207,17 @@ const datosProductos = {
                 {
                     nombre: 'jose_roadtrip',
                     comentario: 'Gran coche para viajes largos, súper estable y cómodo.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen4.png',
                 },
                 {
                     nombre: 'sofia_motor',
                     comentario: 'Rendimiento increíble en la pista, muy ágil y rápido.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen5.jpg',
                 },
                 {
                     nombre: 'martin_mec',
                     comentario: 'Excelente tecnología de seguridad, pero algo ruidoso en carretera.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen6.jpg',
                 },
             ]
         },
@@ -231,17 +231,17 @@ const datosProductos = {
                 {
                     nombre: 'luis_carrera',
                     comentario: 'Este coche es una máquina, ¡perfecto para los fanáticos de la velocidad!',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen7.png',
                 },
                 {
                     nombre: 'victoria_viajera',
                     comentario: 'Comodidad y eficiencia en el consumo de combustible, ideal para largos recorridos.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen8.png',
                 },
                 {
                     nombre: 'pedro_turbo',
                     comentario: 'Me gusta el diseño, pero podría mejorar la suspensión en caminos irregulares.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen9.jpg',
                 },
             ]
         },
@@ -254,17 +254,17 @@ const datosProductos = {
                 {
                     nombre: 'jose_roadtrip',
                     comentario: 'Tiene un estilo elegante y atemporal que lo convierte en una obra de arte sobre ruedas.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen10.png',
                 },
                 {
                     nombre: 'sofia_motor',
                     comentario: 'Su motor ofrece un sonido clásico y una conducción emocionante, perfecta para los amantes de los autos vintage como yo.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen11.jpg',
                 },
                 {
                     nombre: 'martin_mec',
                     comentario: 'Excelente, pero algo ruidoso en carretera.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen12.jpg',
                 },
             ]
         },
@@ -277,17 +277,17 @@ const datosProductos = {
                 {
                     nombre: 'jose_roadtrip',
                     comentario: 'Gran coche para viajes largos, súper estable y cómodo.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen13.png',
                 },
                 {
                     nombre: 'sofia_motor',
                     comentario: 'Rendimiento increíble en la pista, muy ágil y rápido.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen14.jpg',
                 },
                 {
                     nombre: 'martin_mec',
                     comentario: 'Excelente tecnología de seguridad, pero algo ruidoso en carretera.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen15.png',
                 },
             ]
         },
@@ -300,12 +300,12 @@ const datosProductos = {
                 {
                     nombre: 'jose_roadtrip',
                     comentario: 'Gran coche para viajes largos, súper estable y cómodo.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen16.jpg',
                 },
                 {
                     nombre: 'martin_mec',
                     comentario: 'Excelente tecnología de seguridad, pero algo ruidoso en carretera.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen17.jpg',
                 },
             ]
         },
@@ -318,17 +318,17 @@ const datosProductos = {
                 {
                     nombre: 'nicodrive92',
                     comentario: 'Lo tengo hace unos meses y la verdad es que cada vez que lo manejo, disfruto el viaje. Suave, potente y con un diseño que no pasa desapercibido.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen18.jpg',
                 },
                 {
                     nombre: 'sofiaurbanmotor',
                     comentario: 'El interior es una locura. Todo se siente de alta gama y la tecnología es súper intuitiva. Me encanta cómo se adapta a mi forma de manejar.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen19.jpg',
                 },
                 {
                     nombre: 'leoautolover',
                     comentario: 'Al principio dudaba por el tamaño, pero una vez que lo probás... te das cuenta de que es puro placer de conducción. Vale cada peso.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen20.png',
                 },
             ]
         },
@@ -341,12 +341,12 @@ const datosProductos = {
                 {
                     nombre: 'jose_roadtrip',
                     comentario: 'Gran coche para viajes largos, súper estable y cómodo.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen1.jpg',
                 },
                 {
                     nombre: 'sofia_motor',
                     comentario: 'Rendimiento increíble en la pista, muy ágil y rápido.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen2.png',
                 },
             ]
         },
@@ -359,17 +359,17 @@ const datosProductos = {
                 {
                     nombre: 'jose_roadtrip',
                     comentario: 'Gran coche para viajes largos, súper estable y cómodo.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen3.jpg',
                 },
                 {
                     nombre: 'sofia_motor',
                     comentario: 'Rendimiento increíble en la pista, muy ágil y rápido.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen4.png',
                 },
                 {
                     nombre: 'martin_mec',
                     comentario: 'Excelente tecnología de seguridad, pero algo ruidoso en carretera.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen5.jpg',
                 },
             ]
         },
@@ -382,17 +382,17 @@ const datosProductos = {
                 {
                     nombre: 'jose_roadtrip',
                     comentario: 'Gran coche para viajes largos, súper estable y cómodo.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen6.jpg',
                 },
                 {
                     nombre: 'sofia_motor',
                     comentario: 'Rendimiento increíble en la pista, muy ágil y rápido.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen7.png',
                 },
                 {
                     nombre: 'martin_mec',
                     comentario: 'Excelente tecnología de seguridad, pero algo ruidoso en carretera.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen8.png',
                 },
             ]
         },
@@ -405,17 +405,17 @@ const datosProductos = {
                 {
                     nombre: 'jose_roadtrip',
                     comentario: 'Gran coche para viajes largos, súper estable y cómodo.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen9.jpg',
                 },
                 {
                     nombre: 'sofia_motor',
                     comentario: 'Rendimiento increíble en la pista, muy ágil y rápido.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen10.png',
                 },
                 {
                     nombre: 'martin_mec',
                     comentario: 'Excelente tecnología de seguridad, pero algo ruidoso en carretera.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen11.jpg',
                 },
             ]
         },
@@ -428,17 +428,17 @@ const datosProductos = {
                 {
                     nombre: 'jose_roadtrip',
                     comentario: 'Gran coche para viajes largos, súper estable y cómodo.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen12.jpg',
                 },
                 {
                     nombre: 'sofia_motor',
                     comentario: 'Rendimiento increíble en la pista, muy ágil y rápido.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen13.png',
                 },
                 {
                     nombre: 'martin_mec',
                     comentario: 'Excelente tecnología de seguridad, pero algo ruidoso en carretera.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen14.jpg',
                 },
                 
             ]
@@ -452,17 +452,17 @@ const datosProductos = {
                 {
                     nombre: 'jose_roadtrip',
                     comentario: 'Gran coche para viajes largos, súper estable y cómodo.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen15.png',
                 },
                 {
                     nombre: 'sofia_motor',
                     comentario: 'Rendimiento increíble en la pista, muy ágil y rápido.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen16.jpg',
                 },
                 {
                     nombre: 'martin_mec',
                     comentario: 'Excelente tecnología de seguridad, pero algo ruidoso en carretera.',
-                    imagen: 'default-image.png',
+                    imagen: 'imagen17.jpg',
                 },
                 
             ]
