@@ -11,7 +11,7 @@ const datosProductos = {
     productos: [
         {
             id: '1',
-            imagen: '440.jpg',
+            imagen: 'bmw440i.png',
             nombre: 'BMW 440',
             descripcion: 'Deportivo moderno con diseño provocador y tecnología de punta. 510 HP, tracción trasera o total, y todo el ADN M. Año 2024.',
             comentarios: [
@@ -37,8 +37,8 @@ const datosProductos = {
 
         {
             id: '2',
-            imagen: '118.jpg',
-            nombre: 'BMW 118',
+            imagen: 'bmw118i.jpg',
+            nombre: 'BMW 118i',
             descripcion: 'Compacto y versátil. Ideal para ciudad y escapadas. Motores eficientes, interior tecnológico y estilo juvenil. Año 2023.',
             comentarios: [
                 {
@@ -89,11 +89,6 @@ const datosProductos = {
             nombre: 'i4 eDrive40',
             descripcion: ' Sedán eléctrico de 340 HP. Combina elegancia con autonomía y conducción dinámica. Silencioso, pero potente. Año 2025.',
             comentarios: [
-                {
-                    nombre: 'auto_fan23',
-                    comentario: 'El motor suena increíble, súper recomendable.',
-                    imagen: 'default-image.png',
-                },
                 {
                     nombre: 'speedy_lucas',
                     comentario: 'Ideal para los que aman la velocidad. 10/10.',
@@ -252,23 +247,23 @@ const datosProductos = {
         },
         {
             id: '11',
-            imagen: '507.jpg',
+            imagen: 'bmw507.jpg',
             nombre: '507',
             descripcion: 'Un roadster de lujo con diseño atemporal y motor V8. Ícono de los años 50, con solo 252 unidades fabricadas, amado por celebridades como Elvis Presley. Año 2005.',
             comentarios: [
                 {
                     nombre: 'jose_roadtrip',
-                    comentario: 'Gran coche para viajes largos, súper estable y cómodo.',
+                    comentario: 'Tiene un estilo elegante y atemporal que lo convierte en una obra de arte sobre ruedas.',
                     imagen: 'default-image.png',
                 },
                 {
                     nombre: 'sofia_motor',
-                    comentario: 'Rendimiento increíble en la pista, muy ágil y rápido.',
+                    comentario: 'Su motor ofrece un sonido clásico y una conducción emocionante, perfecta para los amantes de los autos vintage como yo.',
                     imagen: 'default-image.png',
                 },
                 {
                     nombre: 'martin_mec',
-                    comentario: 'Excelente tecnología de seguridad, pero algo ruidoso en carretera.',
+                    comentario: 'Excelente, pero algo ruidoso en carretera.',
                     imagen: 'default-image.png',
                 },
             ]
@@ -308,11 +303,6 @@ const datosProductos = {
                     imagen: 'default-image.png',
                 },
                 {
-                    nombre: 'sofia_motor',
-                    comentario: 'Rendimiento increíble en la pista, muy ágil y rápido.',
-                    imagen: 'default-image.png',
-                },
-                {
                     nombre: 'martin_mec',
                     comentario: 'Excelente tecnología de seguridad, pero algo ruidoso en carretera.',
                     imagen: 'default-image.png',
@@ -326,18 +316,18 @@ const datosProductos = {
             descripcion: ' Diseño coupé con espíritu deportivo y practicidad. Perfecto para quienes buscan dinamismo sin renunciar al confort.Año 2023.',
             comentarios: [
                 {
-                    nombre: 'jose_roadtrip',
-                    comentario: 'Gran coche para viajes largos, súper estable y cómodo.',
+                    nombre: 'nicodrive92',
+                    comentario: 'Lo tengo hace unos meses y la verdad es que cada vez que lo manejo, disfruto el viaje. Suave, potente y con un diseño que no pasa desapercibido.',
                     imagen: 'default-image.png',
                 },
                 {
-                    nombre: 'sofia_motor',
-                    comentario: 'Rendimiento increíble en la pista, muy ágil y rápido.',
+                    nombre: 'sofiaurbanmotor',
+                    comentario: 'El interior es una locura. Todo se siente de alta gama y la tecnología es súper intuitiva. Me encanta cómo se adapta a mi forma de manejar.',
                     imagen: 'default-image.png',
                 },
                 {
-                    nombre: 'martin_mec',
-                    comentario: 'Excelente tecnología de seguridad, pero algo ruidoso en carretera.',
+                    nombre: 'leoautolover',
+                    comentario: 'Al principio dudaba por el tamaño, pero una vez que lo probás... te das cuenta de que es puro placer de conducción. Vale cada peso.',
                     imagen: 'default-image.png',
                 },
             ]
@@ -356,11 +346,6 @@ const datosProductos = {
                 {
                     nombre: 'sofia_motor',
                     comentario: 'Rendimiento increíble en la pista, muy ágil y rápido.',
-                    imagen: 'default-image.png',
-                },
-                {
-                    nombre: 'martin_mec',
-                    comentario: 'Excelente tecnología de seguridad, pero algo ruidoso en carretera.',
                     imagen: 'default-image.png',
                 },
             ]

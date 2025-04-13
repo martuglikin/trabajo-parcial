@@ -9,22 +9,23 @@
 	<!-- /Header -->
 
 	<!-- Novedades -->
-	<div class="container products-wrapper">
+	<div class="container-products-wrapper">
 		<div class="row">
 			<div class="col-12">
 				<h2 class="products-title">Resultados de búsqueda</h2>
 			</div>
 			<!-- Show the "ultimos" products -->
 			<% for (var i = 0; i < productos.length; i++) { %>
-				<div class="col-12 ">
-				  <article>
+				  <article class="bmw-card">
 					<img src="/images/products/<%= productos[i].imagen %>" alt="<%= productos[i].nombre %>">
 					<h3><%= productos[i].nombre %></h3>
 					<p><%= productos[i].descripcion %></p>
-					<a href="/">Ver más</a>
+					<a href="/product/product/<%= [i+1] %>">Ver más</a>
 				  </article>
-				</div>
 			  <% } %>
+
+		</div>
+		</div>
 			  
 
 

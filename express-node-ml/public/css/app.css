@@ -558,7 +558,7 @@ textarea.form-input {
 }
 
 
-/* Formulario Product-Add */
+/* Formulario*/
 
 .forms-style {
   max-width: 400px;
@@ -609,4 +609,80 @@ textarea.form-input {
 
 .editar:hover{
   color: #8d8f92;
+}
+
+/* Search-Results */
+
+.bmw-card{
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  border: 5px solid #1c69d4;
+  width: 40%;
+}
+
+.bmw-card:hover{
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.bmw-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  display: block;
+  margin: 0 auto;
+}
+
+.bmw-card h3{
+  font-size: 1.6rem;
+  font-family: 'Lexend', sans-serif;
+  color: #0a0a0a;
+  margin-bottom: 10px;
+}
+
+.bmw-card p{
+  font-size: 1rem;
+  font-family: 'Lexend', sans-serif;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.bmw-card a{
+  display: inline-block;
+  padding: 10px 18px;
+  background-color: #1c69d4;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.bmw-card a:hover {
+  background-color: #0f4ba8;
+}
+
+.container-products-wrapper{
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  gap: 20px; 
+  padding: 20px;
+}
+
+
+/* Index Container Imagenes */
+
+.product-box_image {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+
+.product-box_image img {
+  max-height: 100%;
+  width: auto;
 }
