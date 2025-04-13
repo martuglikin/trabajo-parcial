@@ -20,7 +20,7 @@
 					<img src="/images/products/<%= productos[i].imagen %>" alt="<%= productos[i].nombre %>">
 					<h3><%= productos[i].nombre %></h3>
 					<p><%= productos[i].descripcion %></p>
-					<a href="/product/product/<%= [i+1] %>">Ver más</a>
+					<a href="/product/product/<%= productos[i].id %>">Ver más</a>
 				  </article>
 			  <% } %>
 
