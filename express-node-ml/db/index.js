@@ -17,19 +17,19 @@ const datosProductos = {
             comentarios: [
                 {
                     nombre: 'user1',
-                    comentario: 'muy buenoooo',
+                    comentario: 'Diseño agresivo y gran equilibrio entre lujo y deportividad. El motor de seis cilindros suena increíble.',
                     imagen: 'imagen1.jpg',
                 },
 
                 {
                     nombre: 'user2',
-                    comentario: 'buenisimo',
+                    comentario: 'Combina confort en ruta con potencia bruta. Ideal para viajar rápido y con estilo.',
                     imagen: 'imagen2.png',
                 },
 
                 {
                     nombre: 'user3',
-                    comentario: 'malo',
+                    comentario: 'El doble riñón frontal genera opiniones, pero el motor B58 convence a todos.',
                     imagen: 'imagen3.jpg',
                 },
             ]
@@ -43,18 +43,13 @@ const datosProductos = {
             comentarios: [
                 {
                     nombre: 'mariana23',
-                    comentario: 'Excelente servicio, súper recomendable.',
+                    comentario: 'Compacto, ágil y con buen equipamiento. Ideal para ciudad, aunque perdió la tracción trasera.',
                     imagen: 'imagen4.png',
                 },
                 {
                     nombre: 'juan_tech',
-                    comentario: 'El producto llegó rápido y en buen estado.',
+                    comentario: 'Cómodo, moderno y seguro. No es tan purista como antes, pero cumple con creces.',
                     imagen: 'imagen5.jpg',
-                },
-                {
-                    nombre: 'lucasdev',
-                    comentario: 'No era lo que esperaba, pero igual cumplió.',
-                    imagen: 'imagen6.jpg',
                 },
             ]
         },
@@ -77,7 +72,7 @@ const datosProductos = {
                 },
                 {
                     nombre: 'ana.codes',
-                    comentario: 'El envío tardó un poco, pero valió la pena.',
+                    comentario: 'El ícono. Ligero, preciso, con alma de competición. Una leyenda que marcó historia.',
                     imagen: 'imagen9.jpg',
                 },
             ]
@@ -97,6 +92,16 @@ const datosProductos = {
                 {
                     nombre: 'claudia_ruta',
                     comentario: 'Cómodo, seguro y elegante. Me encantó.',
+                    imagen: 'imagen11.jpg',
+                },
+                {
+                    nombre: 'claudia_ruta',
+                    comentario: 'SUV eléctrico discreto y eficiente. No grita “eléctrico”, pero se siente premium.',
+                    imagen: 'imagen11.jpg',
+                },
+                {
+                    nombre: 'claudia_ruta',
+                    comentario: 'El diseño no es el mejor pero es super cómodo.',
                     imagen: 'imagen11.jpg',
                 },
             ]
@@ -123,6 +128,11 @@ const datosProductos = {
                     comentario: 'Muy buena relación precio-calidad.',
                     imagen: 'imagen14.jpg',
                 },
+                {
+                    nombre: 'ale_turbo',
+                    comentario: 'Roadster elegante y divertido. Más GT que deportivo puro, pero sigue siendo BMW.',
+                    imagen: 'imagen14.jpg',
+                },
             ]
         },
 
@@ -141,11 +151,6 @@ const datosProductos = {
                     nombre: 'luisa_drive',
                     comentario: 'Súper cómodo para viajes largos, lo recomiendo.',
                     imagen: 'imagen16.jpg',
-                },
-                {
-                    nombre: 'max_rider',
-                    comentario: 'Me encantó el diseño, pero el consumo podría mejorar.',
-                    imagen: 'imagen17.jpg',
                 },
             ]
         },
@@ -195,6 +200,11 @@ const datosProductos = {
                     comentario: 'Buena performance, aunque podría mejorar la tecnología a bordo.',
                     imagen: 'imagen3.jpg',
                 },
+                {
+                    nombre: 'carla_circuito',
+                    comentario: 'Me encantó el diseño, pero el consumo podría mejorar.',
+                    imagen: 'imagen3.jpg',
+                },
             ]
         },
 
@@ -217,6 +227,11 @@ const datosProductos = {
                 {
                     nombre: 'martin_mec',
                     comentario: 'Excelente tecnología de seguridad, pero algo ruidoso en carretera.',
+                    imagen: 'imagen6.jpg',
+                },
+                {
+                    nombre: 'martin_mec',
+                    comentario: 'Excelente',
                     imagen: 'imagen6.jpg',
                 },
             ]
@@ -330,6 +345,11 @@ const datosProductos = {
                     comentario: 'Al principio dudaba por el tamaño, pero una vez que lo probás... te das cuenta de que es puro placer de conducción. Vale cada peso.',
                     imagen: 'imagen20.png',
                 },
+                {
+                    nombre: 'leoautolover',
+                    comentario: 'No era lo que esperaba pero igaul me agrada.',
+                    imagen: 'imagen20.png',
+                },
             ]
         },
         {
@@ -392,6 +412,16 @@ const datosProductos = {
                 {
                     nombre: 'martin_mec',
                     comentario: 'Excelente tecnología de seguridad, pero algo ruidoso en carretera.',
+                    imagen: 'imagen8.png',
+                },
+                {
+                    nombre: 'martin_mec',
+                    comentario: 'Excelente.',
+                    imagen: 'imagen8.png',
+                },
+                {
+                    nombre: 'martin_mec',
+                    comentario: 'Un espectaculo.',
                     imagen: 'imagen8.png',
                 },
             ]
