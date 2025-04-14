@@ -57,7 +57,7 @@ const datosProductos = {
         {
             id: '3',
             imagen: 'E28-clasico.jpg',
-            nombre: 'E 28',
+            nombre: 'E28-clasico',
             descripcion: 'Un sedán deportivo antes de que eso fuera tendencia. Elegante por fuera, pero con un motor de 6 cilindros en línea que entregaba una experiencia de conducción pura. Año 1998.',
             comentarios: [
                 {
@@ -139,7 +139,7 @@ const datosProductos = {
         {
             id: '6',
             imagen: 'x2.jpg',
-            nombre: 'X2',
+            nombre: 'BMW X2',
             descripcion: 'SUV compacto, ideal para la ciudad y viajes. Diseño moderno, tecnología avanzada y versiones híbridas y eléctricas. Año 2024.',
             comentarios: [
                 {
@@ -158,7 +158,7 @@ const datosProductos = {
         {
             id: '7',
             imagen: 'M1-1978.jpg',
-            nombre: 'M1',
+            nombre: 'BMW M1',
             descripcion: 'El primer superdeportivo de BMW. Motor central, diseño de Giugiaro y alma de competición. Es un ícono de colección y una rareza moderna. Año 1978',
             comentarios: [
                 {
@@ -211,7 +211,7 @@ const datosProductos = {
         {
             id: '9',
             imagen: 'M3-nuevo.webp',
-            nombre: 'M3',
+            nombre: 'BMW M3',
             descripcion: 'El M3 original. Ligero, ágil y nacido para las pistas. Su éxito en el automovilismo lo convirtió en leyenda y referencia hasta hoy. Año 2021.',
             comentarios: [
                 {
@@ -240,7 +240,7 @@ const datosProductos = {
         {
             id: '10',
             imagen: 'serie2.jpg',
-            nombre: 'Serie 2',
+            nombre: 'BMW Serie 2',
             descripcion: 'Sedán mediano por excelencia. Tecnología, elegancia y precisión en la conducción. Un clásico que evoluciona con cada generación. Año 2020.',
             comentarios: [
                 {
@@ -263,7 +263,7 @@ const datosProductos = {
         {
             id: '11',
             imagen: 'bmw507.jpg',
-            nombre: '507',
+            nombre: 'BMW 507',
             descripcion: 'Un roadster de lujo con diseño atemporal y motor V8. Ícono de los años 50, con solo 252 unidades fabricadas, amado por celebridades como Elvis Presley. Año 2005.',
             comentarios: [
                 {
@@ -286,7 +286,7 @@ const datosProductos = {
         {
             id: '12',
             imagen: 'electrico3.webp',
-            nombre: 'i7',
+            nombre: 'BMW i7',
             descripcion: 'Lujo eléctrico sin precedentes. El sedán más tecnológico y lujoso de BMW, con detalles como pantalla de cine en los asientos traseros.Año 2025.',
             comentarios: [
                 {
@@ -309,7 +309,7 @@ const datosProductos = {
         {
             id: '13',
             imagen: 'M5-nuevo.jpg',
-            nombre: 'M5',
+            nombre: 'BMW M5',
             descripcion: 'Sedán con motor V10 derivado de la Fórmula 1. Una bestia disfrazada de auto ejecutivo, con más de 500 HP y sonido inconfundible. Año 2025.',
             comentarios: [
                 {
@@ -327,7 +327,7 @@ const datosProductos = {
         {
             id: '14',
             imagen: '430-coupe.jpg',
-            nombre: '430 coupe',
+            nombre: 'BMW 430 coupe',
             descripcion: ' Diseño coupé con espíritu deportivo y practicidad. Perfecto para quienes buscan dinamismo sin renunciar al confort.Año 2023.',
             comentarios: [
                 {
@@ -355,7 +355,7 @@ const datosProductos = {
         {
             id: '15',
             imagen: '2002.jpg',
-            nombre: '2002 Turbo',
+            nombre: 'BMW 2002 Turbo',
             descripcion: 'El primer BMW turboalimentado. Compacto, veloz y con una estética agresiva, fue un pionero del diseño deportivo en autos de calle. Año 1973.',
             comentarios: [
                 {
@@ -373,7 +373,7 @@ const datosProductos = {
         {
             id: '16',
             imagen: 'electrico4.webp',
-            nombre: 'i3',
+            nombre: 'BMW i3',
             descripcion: 'El pionero eléctrico urbano. Diseño audaz, interior sustentable y una propuesta diferente para la movilidad moderna. Año 2025.',
             comentarios: [
                 {
@@ -396,7 +396,7 @@ const datosProductos = {
         {
             id: '17',
             imagen: 'M2.jpg',
-            nombre: 'M2 CS',
+            nombre: 'BMW M2 CS',
             descripcion: 'Una edición limitada y radical del M2. Más potencia, menor peso y mejoras en la suspensión para un manejo extremo en pista. Año 2021.',
             comentarios: [
                 {
@@ -429,7 +429,7 @@ const datosProductos = {
         {
             id: '18',
             imagen: 'Serie5.jpg',
-            nombre: 'Serie 5',
+            nombre: 'BMW Serie 5',
             descripcion: 'Sedán ejecutivo con un balance perfecto entre lujo y rendimiento. Ahora también con versión eléctrica (i5). Año 2021.',
             comentarios: [
                 {
@@ -452,7 +452,7 @@ const datosProductos = {
         {
             id: '19',
             imagen: '3.0-CSL.jpg',
-            nombre: '3.0 CSL',
+            nombre: 'BMW 3.0 CSL',
             descripcion: 'Conocido como el “Batimóvil”, este coupé fue una leyenda del automovilismo europeo y precursor de la línea M. Ligero, potente y con aerodinámica avanzada para su época. Año 1975.',
             comentarios: [
                 {
@@ -476,7 +476,7 @@ const datosProductos = {
         {
             id: '20',
             imagen: 'electrico5.jpg',
-            nombre: 'i X6',
+            nombre: 'BMW i X6',
             descripcion: 'SUV eléctrico insignia. Diseño futurista, 523 HP, pantalla curva y más de 600 km de autonomía. Año 2025.',
             comentarios: [
                 {
