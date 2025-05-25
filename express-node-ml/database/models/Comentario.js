@@ -40,7 +40,7 @@ module.exports = function (sequelize, dataTypes) {
 
 
     Comentario.associate = function (models) {
-        Comentario.belongsTo(models.User, {
+        Comentario.belongsTo(models.Usuario, {
 
             as: "comentador",
 
