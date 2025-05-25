@@ -53,7 +53,7 @@ module.exports = function (sequelize, dataTypes ) {
 
             as: "comentarios",
 
-            foreignKey: "id"
+            foreignKey: "producto_id"
         });
     }
 

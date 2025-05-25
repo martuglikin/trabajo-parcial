@@ -1,4 +1,6 @@
 let datosProductos = require("../db/index")
+let db = require("../database/models")
+let Producto = db.Producto
 
 const productController = {
     detalle: function(req, res) {
@@ -6,13 +8,18 @@ const productController = {
         let id = req.params.id;
         let producto = {};
 
-        for (let i = 0; i < datosProductos.productos.length; i++) {
-          if(id == datosProductos.productos[i].id){
-            producto = datosProductos.productos[i];
-          }
-        }
+        Producto.findOne({
+          where: {id: id}, // el primer id columna de la base de datos, el segundo id es la var de la linea 8
+          include:[{association: "publicador"}, {association: "comentarios", include:[{association: "comentador"}]}]
+
+        })
         
-        res.render('product', {producto: producto});
+        .then(function(datos){
+
+          res.render('product', {producto: datos});
+        })
+
+        
 
         // let producto = datosProductos.productos[0]
         // res.render('product', {producto: producto});
