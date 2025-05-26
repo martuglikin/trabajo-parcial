@@ -38,8 +38,8 @@
 						<% } %>
 
 					</section>
-					<form class="form" action="" method="POST">
-						<input class="form-input" type="text" value="" placeholder="Agregar comentario">
+					<form class="form" action="/product/product/<%= producto.id %>" method="POST">
+						<input class="form-input" type="text" name="comment" placeholder="Agregar comentario">
 						<button type="submit" class="buy-now-button">AGREGAR COMENTARIO</button>
 					</form>
 					<hr>

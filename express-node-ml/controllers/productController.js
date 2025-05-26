@@ -1,6 +1,7 @@
 let datosProductos = require("../db/index")
 let db = require("../database/models")
 let Producto = db.Producto
+let Comentario = db.Comentario
 
 const productController = {
     detalle: function(req, res) {
@@ -41,6 +42,20 @@ const productController = {
         res.redirect('/')
       })
 
+      },
+
+      comentar: function(req, res){
+
+        console.log(req.body, 'probando')
+         Comentario.create({
+           texto: req.body.comment,
+           producto_id: req.params.id,
+           usuario_id: 1
+         })
+
+         .then(function(){
+           res.redirect('/product/product/' + req.params.id);
+         })
       }
 
     }
