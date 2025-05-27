@@ -8,12 +8,30 @@ const userController = {
         res.render('login');
     },
 
-    perfil: function(req, res){
-         res.render('profile', {
-            usuario: datosProductos.usuario,
-            productos: datosProductos.productos
-        });
-    },
+    perfil: function (req, res) {
+        const userId = req.params.id;
+
+        db.Usuario.findByPk(userId, {
+            include: [
+                {
+                association: "productos",
+                include: [{ association: "comentarios" }] 
+                }
+            ]
+            })
+
+        .then(function (usuario) {
+            if (usuario) {
+            res.render("profile", {
+                usuario: usuario,
+                productos: usuario.productos,
+                total: usuario.productos.length
+            });
+            } else {
+            res.send("Usuario no encontrado.");
+            }
+    })
+},
 
     registro: function(req, res){
         res.render('register', {nombreUsuario: datosProductos.usuario.usuario});
