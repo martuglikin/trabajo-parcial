@@ -75,6 +75,13 @@ const userController = {
         .then(function(){
             res.redirect('/users/login')
         })
+    },
+    logout: function(req, res){
+        req.session.destroy()
+        if(req.cookies.usuarioLogueado){
+            res.clearCookie('usuarioLogueado')
+        }
+        res.redirect('/')
     }
 }
 

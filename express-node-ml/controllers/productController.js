@@ -33,7 +33,7 @@ const productController = {
     crearProducto:function(req, res){
 
       Producto.create({
-        usuario_id: 1,
+        usuario_id: req.session.usuarioLogueado.id,
         imagen_producto: req.body.imagen_producto,
         nombre_producto: req.body.nombre_producto,
         descripcion: req.body.descripcion,
@@ -50,7 +50,7 @@ const productController = {
          Comentario.create({
            texto: req.body.comment,
            producto_id: req.params.id,
-           usuario_id: 1
+           usuario_id: req.session.usuarioLogueado.id
          })
 
          .then(function(){
