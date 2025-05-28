@@ -32,7 +32,7 @@
 								<h2><%= productos[i].nombre_producto %></h2>
 								<p><%= productos[i].descripcion %></p>
 								<p>Comentarios: <%= productos[i].comentarios?.length %> </p>
-
+								<a href="/users/profile/<%= productos[i].publicador.id %>"><%= productos[i].publicador.email %></a>
 							</article>
 						</a>
 					</section>

@@ -27,7 +27,7 @@ const productController = {
       },
 
     agregarProducto: function(req, res) {
-        res.render('product-add', {nombreusuario: datosProductos.usuario.usuario}); //se lo mande a product-add para que me aparezca el nombre
+        res.render('product-add'); //se lo mande a product-add para que me aparezca el nombre
       },
 
     crearProducto:function(req, res){

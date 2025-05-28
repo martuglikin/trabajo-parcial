@@ -11,7 +11,7 @@ const userController = {
     perfil: function (req, res) {
         const userId = req.params.id;
 
-        db.Usuario.findByPk(userId, {
+        Usuario.findByPk(userId, {
             include: [
                 {
                 association: "productos",
@@ -31,7 +31,7 @@ const userController = {
             res.send("Usuario no encontrado.");
             }
     })
-},
+    },
 
     registro: function(req, res){
         res.render('register', {nombreUsuario: datosProductos.usuario.usuario});
