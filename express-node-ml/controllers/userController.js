@@ -33,6 +33,32 @@ const userController = {
     })
     },
 
+    login: function(req, res){
+        //res.send(req.body)
+
+        Usuario.findOne({
+            where: {
+                email: req.body.email
+            }
+        })
+
+        .then(function(data){
+            if(data) {
+                if(bcrypt.compareSync(req.body.contraseña, data.contraseña)){
+                    req.session.usuarioLogueado = data
+                    if(req.body.recordarme){
+                        res.cookie('usuarioLogueado', data, { maxAge: 1000 * 60 * 5 })
+                    }
+                    res.redirect(`/users/profile/${data.id}`)
+                }else{
+                    res.send("esta mal la contraseña")
+                }
+            }else{
+                res.send("no existe un usuario con ese email")
+            }
+        })
+    },
+
     registro: function(req, res){
         res.render('register', {nombreUsuario: datosProductos.usuario.usuario});
     },

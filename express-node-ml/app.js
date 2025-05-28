@@ -3,6 +3,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+const session = require('express-session');
 
 var mainRouter = require('./routes/main');
 var usersRouter = require('./routes/users');
@@ -19,6 +20,27 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+
+app.use(session( { secret: "Nuestro TP secreto",
+				resave: false,
+				saveUninitialized: true }));
+      
+app.use(function(req, res, next) {
+	if (req.session.usuarioLogueado != undefined) {
+		res.locals.user = req.session.usuarioLogueado	
+     }
+return next();
+});
+
+app.use(function(req, res, next) {
+	if (req.session.usuarioLogueado == undefined && req.cookies.usuarioLogueado != undefined) {
+		res.locals.user = req.cookies.usuarioLogueado	
+    req.session.usuarioLogueado = req.cookies.usuarioLogueado	
+     }
+return next();
+});
+
+// codigo que se ejecuta
 
 app.use('/', mainRouter);
 app.use('/users', usersRouter);
