@@ -5,7 +5,11 @@
 
 	<body>
 		<!-- Header -->
+	<% if (locals.user != undefined) { %>
+		<%- include('./partials/headerLogueado') %>
+	<% } else { %>
 		<%- include('./partials/headerOriginal') %>
+	<% } %>
 			<!-- /Header -->
 
 			<!-- Novedades -->

@@ -27,7 +27,11 @@ const productController = {
       },
 
     agregarProducto: function(req, res) {
-        res.render('product-add'); //se lo mande a product-add para que me aparezca el nombre
+      if(req.session.user == undefined ){
+            return res.redirect('/')
+        } else {
+            res.render('product-add'); //se lo mande a product-add para que me aparezca el nombre
+        }
       },
 
     crearProducto:function(req, res){
