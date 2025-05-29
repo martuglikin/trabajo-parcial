@@ -17,7 +17,11 @@
 		<div class="d-flex align-items-center">
 			<h2 class="products-title"><%= producto.nombre_producto %></h2> 
 			<p class="product-detail-description">
+			<% if (locals.user && locals.user.id == producto.publicador.id) { %>
+
 				<a class="editar" href="/product/product-add">Editar</a>
+			
+			<% } %>
 			</p>
 		</div>
 		<div class="product-detail">
@@ -26,6 +30,7 @@
 					<img src="/images/products/<%= producto.imagen_producto %>" alt="foto del producto <%= producto.nombre_producto %>" class="product-detail-img">
 					<p class="product-detail-description">
 						<%= producto.descripcion %> </p>
+					<a class="product-detail-description" href="/users/profile/<%= producto.publicador.id %>">Publicado por <strong><%= producto.publicador.email %></strong></a>
 				</article>
 				<div class="col-12 col-lg-4">
 					<section class="comments">
@@ -35,7 +40,7 @@
 							<img src="/images/users/<%= producto.comentarios[i].comentador.foto_perfil %>" alt="">
 							<div class="data">
 								<p class="user">
-								<strong> <a href="/users/profile"><%= producto.comentarios[i].comentador.email %> </a> </strong>
+								<strong> <a href="/users/profile/<%= producto.comentarios[i].comentador.id %>"><%= producto.comentarios[i].comentador.email %> </a> </strong>
 								<%= producto.comentarios[i].texto %></p>
 							</div>
 							</article>

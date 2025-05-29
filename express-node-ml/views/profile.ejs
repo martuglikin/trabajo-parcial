@@ -22,9 +22,14 @@
 				<div class="d-flex align-items-center">
 					<h1 class="main-title">
 						<%= usuario.usuario %>
-						<a href="/users/edit">
-							<i class="fas fa-cog"></i>
-						</a>
+
+						<% if (locals.user && locals.user.id == usuario.id) { %>
+
+							<a href="/users/edit">
+								<i class="fas fa-cog"></i>
+							</a>
+			
+						<% } %>
 					</h1>
 					<a class="btn mt-3 ml-4" href="#">SEGUIR</a>
 				</div>
@@ -55,7 +60,7 @@
 								<img src="/images/products/<%= productos[i].imagen_producto %>" alt="<%= productos[i].nombre %>">
 							</figure>
 							<article class="product-box_data">
-								<h2><%= productos[i].nombre %></h2>
+								<h2><%= productos[i].nombre_producto %></h2>
 								<p><%= productos[i].descripcion %></p>
 								<p>Comentarios: <%= productos[i].comentarios.length %> </p>
 

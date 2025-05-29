@@ -27,7 +27,7 @@ const productController = {
       },
 
     agregarProducto: function(req, res) {
-      if(req.session.user == undefined ){
+      if(req.session.usuarioLogueado == undefined ){
             return res.redirect('/')
         } else {
             res.render('product-add'); //se lo mande a product-add para que me aparezca el nombre
