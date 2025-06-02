@@ -50,7 +50,11 @@ const productController = {
 
       comentar: function(req, res){
 
-        console.log(req.body, 'probando')
+        if(req.session.user == undefined ){
+            return res.redirect('/users/login')
+        }
+
+        //console.log(req.body, 'probando')
          Comentario.create({
            texto: req.body.comment,
            producto_id: req.params.id,

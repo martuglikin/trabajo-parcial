@@ -7,7 +7,7 @@ const mainController = {
   index: function (req, res) {
     Producto.findAll({
       include: [{ association: "publicador" }, { association: "comentarios" }],
-      limit: 8 //https://sequelize.org/docs/v6/core-concepts/model-querying-basics/#limits-and-pagination
+      //limit: 8 //https://sequelize.org/docs/v6/core-concepts/model-querying-basics/#limits-and-pagination
     })
 
       .then(function (productos) {
