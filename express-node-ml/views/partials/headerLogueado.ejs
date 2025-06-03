@@ -25,7 +25,8 @@
 			<button class="btn-toggle-navbar">
 				<i class="fas fa-bars"></i>
 			</button>
-	
+
+			<h3 class="left-navbar">Hola <%= locals.user.email %>! </h3>
 			<nav class="main-navbar">
 				<ul class="left-navbar">
 					<li><a href="/">Todos los productos</a></li>
@@ -34,7 +35,7 @@
 	
 				<ul class="right-navbar">
 					<li><a href="/users/profile/<%= locals.user.id %>">
-						<%= locals.user.email %>	<i class="fas fa-user"></i>
+						Mi perfil <i class="fas fa-user"></i>
 						</a>
 					</li>
 					<li>

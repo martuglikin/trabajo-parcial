@@ -48,11 +48,18 @@
 
 					</section>
 					
-					<form class="form" action="/product/product/<%= producto.id %>" method="POST">
-					<input class="form-input" type="text" name="comment" placeholder="Agregar comentario">
-					<button type="submit" class="buy-now-button">AGREGAR COMENTARIO</button>
+					<% if (locals.user != undefined) { %>
+                        <form class="form" action="/product/product/<%= producto.id %>" method="POST">
+                        <input class="form-input" type="text" name="comment" placeholder="Agregar comentario">
+                        <button type="submit" class="buy-now-button">AGREGAR COMENTARIO</button>
+                        <hr>
+                    <% } else { %>
+                        <form class="form" action="/users/login" method="get">
+                        <input class="form-input" type="text" name="comment" placeholder="Agregar comentario">
+                        <button type="submit" class="buy-now-button">AGREGAR COMENTARIO</button>
+                        <hr>
+                        <% } %>	
 					<hr>
-					</form>
 				</div>
 			</div>
 		</div>
